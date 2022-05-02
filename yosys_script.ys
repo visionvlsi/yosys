@@ -1,5 +1,5 @@
 read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
-read_verilog fa.v rca.v     #{ fa.v and rca.v verilog files}
+read_verilog -nolatches fa.v rca.v     #{ fa.v and rca.v verilog files}
 synth -top adder_4bit       #{top module name}
 #dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
 abc  -liberty sky130_fd_sc_hd__tt_025C_1v80.lib 
