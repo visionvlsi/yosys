@@ -4,7 +4,7 @@
 1. sudo apt install npm
 2. git clone https://github.com/nturley/netlistsvg
 3. cd netlistsvg
-4. npm install --legacy-peer-deps
+4. sudo npm install --legacy-peer-deps
 #npm install # install dependencies
 5. sudo npm install -g . # install netlistsvg to system
 ```
