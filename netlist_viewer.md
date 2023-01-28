@@ -11,3 +11,7 @@ sudo npm install -g . # install netlistsvg to system
 sudo npm uninstall -g netlistsvg # uninstall from system
 
 ```
+# to view
+```
+netlistsvg input_json_file [-o output_svg_file] [--skin skin_file]
+```
