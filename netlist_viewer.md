@@ -22,3 +22,8 @@ netlistsvg input_json_file [-o output_svg_file] [--skin skin_file]
 sudo apt install inkscape
 
 ```
+#### After launching/opening inkspace
+```
+[inkscape file.svg] will open the inkscape then do the following if image outline only is seen
+View -> Display Mode -> Outline
+```
