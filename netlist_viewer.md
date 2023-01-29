@@ -13,7 +13,12 @@
 sudo npm uninstall -g netlistsvg # uninstall from system
 ```
 
-# to view
+#### convert json file to svg
 ```
 netlistsvg input_json_file [-o output_svg_file] [--skin skin_file]
+```
+#### To view huge files it is better to install inkscape
+```
+sudo apt install inkscape
+
 ```
